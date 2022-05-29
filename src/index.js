@@ -9,6 +9,14 @@ export default alert;
 
 var debounce = require('lodash.debounce');
 
+// const refs = {
+//   countryCard: document.querySelector('.country-data'),
+//   cardContainer: document.querySelector('.country-list'),
+//   searchInput: document.querySelector('input#search-field'),
+// };
+
+// refs.searchInput.addEventListener('input', debounce(onInput, delay));
+
 const countrySearch = document.querySelector('input#search-box');
 const countryList = document.querySelector('.country-list');
 const countryInfo = document.querySelector('.country-info');
